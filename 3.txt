@@ -1,0 +1,19 @@
+chandan-----------print a * traingle pattern------
+
+
+class Triangle
+def g
+print"Enter a value"
+a=gets.to_i
+for i in 0..a
+for j in 1..a-i
+print(" ")
+end
+for k in 1..i
+print(" *")
+end
+puts
+end
+end
+end
+Triangle.new.g

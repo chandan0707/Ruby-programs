@@ -1,0 +1,13 @@
+Chandan0707--------Program to Print a Star Pattern---------
+
+i=0
+puts "Enter the value"
+a=gets.to_i
+for i in 0..a
+puts " "
+j=0
+while j<=i
+print "*"
+j+=1
+end 
+end

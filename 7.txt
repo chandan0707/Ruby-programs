@@ -1,0 +1,19 @@
+--chandan0707--Program to find the sum of digits---
+
+class Jerel
+def cal
+puts"Enter the no of digits"
+i=gets.to_i
+sum=0
+puts "Enter any #{i} digit Number"
+a=gets.to_i
+for i in 0..i
+b=a%10
+sum=sum+b
+a=a/10
+ 
+end
+puts"The sum of digits of the number is #{ sum}"
+end
+end
+Jerel.new.cal

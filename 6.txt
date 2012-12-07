@@ -1,0 +1,20 @@
+---chandan0707---Program for Armstrong Number----
+Class Armstrong
+def cal
+puts" Enter a number"
+ sum=0
+a=gets.to_i
+b=a
+while(b!=0)
+c=b%10
+sum=sum+(c*c*c)
+b=b/10
+end
+if (a==sum)
+print("Armstrong number")
+else
+puts"Not an Armstrong number"
+end
+end
+end
+Armstrong.new.cal

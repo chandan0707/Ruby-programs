@@ -1,0 +1,16 @@
+--Program for factorial----
+
+
+class Factorial
+def cal
+fact=1
+puts"Enter any number"
+a=gets.to_i
+for i in 1..a
+fact= fact*i
+end
+puts fact
+end
+end
+c=Factorial.new
+c.cal

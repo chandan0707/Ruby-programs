@@ -1,0 +1,18 @@
+Print a pattern of 1
+                   1 2
+                   1 2 3
+                   1 2 3 4
+                   1 2 3 4 5
+
+
+class Itr
+def num
+for i in 1..5
+for j in 1..i
+print j
+end
+puts
+end
+end
+end
+Itr.new.num
