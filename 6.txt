@@ -1,4 +1,4 @@
----chandan0707---Program for Armstrong Number----
+---chandan0707---Program for Armstrong  Number----
 Class Armstrong
 def cal
 puts" Enter a number"
