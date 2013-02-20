@@ -1,0 +1,13 @@
+class Array
+def sample
+test=Array.new(10)
+puts"enter the 10 digits of the array"
+for i in 1..10
+test[i]=gets.to_i
+
+end
+puts"The array is #{test.compact!}"
+puts "The reverse of the Array elemnts is#{test.reverse}"
+end
+end
+Array.new.sample
