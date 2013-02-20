@@ -1,4 +1,4 @@
-chandan-----------print a * traingle pattern------
+chandan-----------print a * traingle  pattern------
 
 
 class Triangle
