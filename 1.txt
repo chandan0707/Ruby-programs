@@ -1,4 +1,4 @@
-Chandan0707--------Program to Print a Star Pattern---------
+Chandan0707--------Program to Print a Star  Pattern---------
 
 i=0
 puts "Enter the value"
