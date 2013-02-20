@@ -1,0 +1,25 @@
+class  Selection
+def marks
+puts"Enter the value"
+a=gets.to_i
+b=gets.to_i
+
+puts"choose a value for the following operation/n 1-Addition
+/n 2- substraction/n 3-multiplication /n 4- division"
+c=gets.to_i
+case c
+when 1
+puts"The result is #{a+b}"
+when 2
+puts"The result is #{a-b}"
+when 3
+puts"The value when multiplied by yields #{a*b}"
+when 4
+puts"The result is #{a/b}"
+else
+puts"unvalid option"
+end
+end
+end
+
+Selection.new.marks
