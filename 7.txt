@@ -1,4 +1,4 @@
---chandan0707--Program to find the sum of digits---
+--chandan0707--Program to find the sum of digits ---
 
 class Jerel
 def cal
