@@ -1,0 +1,32 @@
+class Student
+puts"This program prints the total marks of a candidate"
+def score
+puts"Enter the marks of the subjects"
+
+a=gets.to_i
+b=gets.to_i
+c=gets.to_i
+d=gets.to_i
+e=gets.to_i
+total=a+b+c+d+e
+if total>500
+puts"Sorry these marks are invalid"
+else
+puts"Total marks obtained are= #{total}"
+
+percentage=total/5
+puts"The student has obtained #{percentage.to_f} percent of marks out of 500 "
+case percentage
+when  0..34
+puts"Sorry you have Failed. work hard!"
+when 35..59
+puts"You have achieved second division"
+when  60..100
+puts"Congratulations!!!@@ You have acheived First division @@"
+else
+puts"check the marks entered. The above mentioned percentage is Invalid"
+end
+end
+end
+end
+Student.new.score
