@@ -1,0 +1,13 @@
+class Hash
+puts"Enter the values of hash"
+def test
+names=Hash.new
+for i in 0..5
+names[i]=gets
+end
+puts"The hash is =#{ names}"
+puts"The keys are #{names.keys.inspect}"
+puts"The values are #{names.values.inspect}"
+end
+end
+Hash.new.test
