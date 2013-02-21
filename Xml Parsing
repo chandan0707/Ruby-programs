@@ -1,0 +1,37 @@
+require'rexml/document'
+include REXML
+xmlfile=File.new("xmlt.xml")
+xmldoc= Document.new(xmlfile)
+
+
+root=xmldoc.root
+puts"Root element: "+root.attributes["shelf"]
+
+xmldoc.elements.each("catalog/book"){
+       |f| puts "Book ID :"+f.attributes["id"]
+}
+
+
+xmldoc.elements.each("catalog/book/author"){
+        |f| puts "Author :"+  f.text
+}
+
+xmldoc.elements.each("catalog/book/title"){
+        |f| puts"Title:"+f.text
+}
+
+xmldoc.elements.each("catalog/book/genre"){
+       |f| puts"Genre:"+ f.text
+}
+
+xmldoc.elements.each("catalog/book/price"){
+       |f| puts"Price:"+ f.text
+}
+
+xmldoc.elements.each("catalog/book/publish_date"){
+       |f| puts"Publish Date:"+ f.text
+}
+
+xmldoc.elements.each("catalog/book/description"){
+       |f| puts"Description:"  + f.text
+}
